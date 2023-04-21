@@ -1,0 +1,11 @@
+.place {
+    display: grid;
+    grid-template-columns: minmax(440px, 460px) 1fr;
+    grid-template-rows: 1fr;
+    gap: 40px;
+    height: 660px;
+}
+
+.place:first-of-type {
+    padding-top: 0;
+}

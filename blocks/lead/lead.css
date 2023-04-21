@@ -1,0 +1,10 @@
+.lead{
+    position: relative;
+    margin: 56px 148px 0 148px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 984px;
+    max-height: 1005px;
+    justify-items: center;
+}
