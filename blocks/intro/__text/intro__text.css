@@ -1,8 +1,6 @@
 .intro__text{
-    position: absolute;
-    padding-top: 98px;
-    width: 690px;
-    height: 208px;
+    padding-top: 40px;
+    max-width: 690px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;

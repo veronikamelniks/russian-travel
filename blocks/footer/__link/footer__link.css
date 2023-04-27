@@ -1,0 +1,19 @@
+.footer__link{
+    margin:0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 112%;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding-left: 18px;
+}
+
+.place__paragraph:first-child {
+    padding: 0;
+}
+
+.footer__link:hover {
+    opacity: .3;
+  }
