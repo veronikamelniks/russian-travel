@@ -6,8 +6,8 @@
         <title>Путешествия по России</title>
     </head>
 
-    <body>
-        <div class="page">
+    <body class="page">
+        <div class="page__blocks">
             <header class="header">
                 <img src="./images/header-logo.svg" class="header__logo" alt="Карта России">
                 <div class="header__lang-links">
@@ -36,13 +36,27 @@
                         в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и 
                         описали некоторые интересные места, достойные вашего отпуска.
                     </p>
-                    <p class="intro__list">
-                        Часовых поясов 11 
-                        Объектов природного наследия ЮНЕСКО 12 
-                        Объектов культурного наследия ЮНЕСКО 16 
-                        Природных заповедников 105 
-                        Аэропортов 241 
-                    </p>
+                    <ul class="intro__list">
+                        <li>
+                            <span class="intro__list_name">Часовых поясов</span> 11
+                        </li>
+
+                        <li>
+                            <span class="intro__list_name">Объектов природного наследия ЮНЕСКО</span> 12
+                        </li>
+
+                        <li>
+                            <span class="intro__list_name">Объектов культурного наследия ЮНЕСКО</span> 16
+                        </li>
+
+                        <li>
+                            <span class="intro__list_name">Природных заповедниковв</span> 105
+                        </li>
+
+                        <li>
+                            <span class="intro__list_name">Аэропортов</span> 241
+                        </li>
+                    </ul>
                 </section>
 
                 <section class="photo-grid" aria-label="Гриды с фотографиями природы">
@@ -186,7 +200,7 @@
                 </section>
                 <section class="cover">
                     <div class="cover__background">
-                        <h2 class="cover__title">До Байкала  &laquo; на собаках &raquo;</h2>
+                        <h2 class="cover__title">До Байкала  &laquo;на собаках&raquo;</h2>
                         <p class="cover__subtitle">По мотивам учебной темы о Транссибе —
                          путешествие от столицы до Байкала на электричках.</p>
                          <div class="cover__overlay"></div>
@@ -195,12 +209,25 @@
             </main>
 
             <footer class="footer">
-                <nav>
-                    <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
-                    <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
-                    <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
-                    <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
-                    <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
+                <nav class="footer__nav">
+                    <ul class="footer__links">
+                        <li>
+                            <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
+                        </li>
+                        <li>
+                            <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
+                        </li>
+                        <li>
+                            <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
+                        </li>
+                        <li>
+                            <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
+                        </li>
+                        <li>
+                            <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
+                        </li>
+
+                    </ul>
                 </nav>
                 <p class="footer__copyright">&copy; 2020.Вероника Мельникова</p>
             </footer>

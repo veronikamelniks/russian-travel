@@ -1,4 +1,7 @@
 .cover__background{
+    width: 100%;
+    height: 740px;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,6 +10,28 @@
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    min-width: 740px;
     font-family: 'Inter';
+}
+
+@media screen and (max-width:1024px){
+    .cover__background{
+        width: 1024px;
+        height: 640px;
+
+    }
+}
+
+@media screen and (max-width:768px){
+    .cover__background{
+        width: 768px;
+        height: 480px;
+
+    }
+}
+
+@media screen and (max-width:320px){
+    .cover__background{
+        max-width: 320px;
+        height: 200px;
+    }
 }

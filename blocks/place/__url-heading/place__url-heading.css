@@ -3,9 +3,19 @@
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 12px;
-    letter-spacing: 2px;
+    line-height: 20px;
     text-decoration-line: none;
     color: #AAAAAA;
-    margin: 0 0 12px 0;
+}
+
+@media screen and (max-width:768px){
+    .place__url-heading{
+        line-height: 12px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .place__url-heading{
+        line-height: 12px;
+    }
 }
