@@ -1,5 +1,6 @@
 .cover__title{
     position: relative;
+    text-decoration: none;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
