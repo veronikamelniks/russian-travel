@@ -1,25 +1,26 @@
 .places{
-    display: grid;
-    max-width: 984px;
-    grid-gap: 80px;
-    padding: 0 auto 92px;
-    margin-top: 92px;
+    width: 984px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    margin: 92px auto;
 }
 
 @media screen and (max-width:1024px){
     .places{
-        width: 928px;
+        max-width: 928px;
     }
 }
 
 @media screen and (max-width:768px){
     .places{
-        width: 720px;
+        max-width: 720px;
     }
 }
 
 @media screen and (max-width:320px){
     .places{
-        width: 320px;
+        max-width: 320px;
     }
 }
