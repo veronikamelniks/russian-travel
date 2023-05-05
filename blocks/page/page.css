@@ -1,5 +1,17 @@
 .page{
    background-color: #2A2C2F;
-   width: 100%;
-  }
+   color: #FFFFFF;
+   margin: 0 auto;
+   font-family: 'Inter', sans-serif;
+   font-style: normal;
+   max-width: 1280px;
+   overflow: auto;
+   -ms-overflow-style: none;
+   scrollbar-width: none;
+}
+
+.elem::-webkit-scrollbar {
+   width: 0;
+   height: 0;
+}
 
