@@ -5,13 +5,10 @@
    font-family: 'Inter', sans-serif;
    font-style: normal;
    max-width: 1280px;
-   overflow: auto;
-   -ms-overflow-style: none;
+   overflow: visible;
+   -ms-overflow-style: none;  /* IE и Edge */
    scrollbar-width: none;
 }
 
-.elem::-webkit-scrollbar {
-   width: 0;
-   height: 0;
-}
+
 
