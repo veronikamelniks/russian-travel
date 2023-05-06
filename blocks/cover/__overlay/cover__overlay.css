@@ -10,3 +10,7 @@
     opacity: .3;
     z-index: 1;
 }
+
+.cover__overlay:hover {
+    background: rgba(42, 44, 47, 0.8);
+}
