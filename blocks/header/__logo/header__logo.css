@@ -1,10 +1,12 @@
 .heander__logo{
-    max-width: 176px;
+    width: 176px;
+    height: 52px;
 }
 
 
-@media screen and (max-width:320px){
+@media screen and (max-width:425px){
     .heander__logo{
-        max-width: 142px;
+        width: 142px;
+        height: 42px;
     }
 }

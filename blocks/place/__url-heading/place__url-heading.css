@@ -3,7 +3,9 @@
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    line-height: 20px;
-    text-decoration-line: none;
+    line-height: 100%;
+    letter-spacing: 2px;
     color: #AAAAAA;
+    margin: 0 0 12px 0;
+    text-transform: uppercase;
 }

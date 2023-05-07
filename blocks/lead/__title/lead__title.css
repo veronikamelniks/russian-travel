@@ -7,6 +7,7 @@
     max-width: 720px;
     text-align: center;
     margin: 0 auto;
+    font-family: 'Inter';
 }
 
 @media screen and (max-width: 700px) {
